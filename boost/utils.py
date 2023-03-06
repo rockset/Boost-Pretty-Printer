@@ -778,4 +778,7 @@ multi_index_selector = dict()
 options = {'hide_intrusive_hooks': True}
 
 # Latest boost currently supported by printers
-last_supported_boost_version = (1, 73, 0)
+# ruediger only claims support to 1.73.0, but I (ngbronson)
+# am bumping this value on the optimistic assumption that
+# the parts of boost we use haven't changed layout since then
+last_supported_boost_version = (1, 81, 0)
